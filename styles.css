@@ -1,0 +1,106 @@
+    body, html {
+        font-family: Arial, sans-serif;
+		margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+		overflow: hidden;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        padding: 8px;
+        background-color: #333;
+        color: white;
+        margin: 2px 0;
+    }
+
+    li a {
+        color: white;
+        text-decoration: none;
+        display: block;
+    }
+
+    li:hover {
+        background-color: #555;
+    }
+
+    ul > li {
+        display: inline-block;
+        margin: 0;
+        position: relative; /* Agregado para posicionar correctamente los submenús */
+    }
+
+    ul > li > ul {
+        display: none;
+        position: absolute;
+        top: 100%; /* Ajustado para que el submenú aparezca debajo del ítem del menú principal */
+        left: 0;
+        width: 200px; /* Ajusta según sea necesario */
+        background-color: #666; /* Agregado para un mejor contraste */
+		z-index: 1000;
+    }
+
+    ul > li:hover > ul {
+        display: block;
+    }
+
+    ul > li > ul > li {
+        display: block; /* submenú verticalmente */
+    }
+	    header {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        background-color: #333;
+        color: white;
+		background-size: cover;
+        background-position: center;
+    }
+
+    #bank-icon {
+        margin-right: 20px;
+    }
+
+    #bank-icon img {
+        border-radius: 50%; /* Opcional: para hacer la imagen circular */
+		max-width: 100px;
+    }
+	
+	footer {
+    background-color: #333;
+    padding: 10px 20px;
+    text-align: center;
+	color: white;
+	background-size: cover;
+    background-position: center;
+    }
+	
+    #main-content {
+	position: relative;
+    background-image: url('background.png');
+    background-size: cover; /* Asegura que la imagen de fondo cubra todo el elemento */
+    background-position: center; /* Centra la imagen de fondo */
+    background-repeat: no-repeat;
+    height: calc(100% - 190px); /* Ajusta la altura para que se acomode entre el encabezado y el pie de página */
+    overflow: hidden;
+    }
+
+    #main-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1; /* Esto asegura que el degradado esté sobre la imagen de fondo */
+    background: linear-gradient(3deg, #333 9.83%, rgba(0, 0, 0, 0.00) 115.82%);
+    }
+	
+    header, #main-content, footer {
+    width: 100%; /* Asegura que todos los elementos tengan el mismo ancho */
+    }

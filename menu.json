@@ -1,0 +1,68 @@
+{
+    "menuItems": [
+        {
+            "text": "Inicio",
+            "url": "#"
+        },
+        {
+            "text": "Cuentas",
+            "url": "#",
+            "subMenu": [
+                { "text": "Cuenta Corriente", "url": "#" },
+                { "text": "Cuenta de Ahorros", "url": "#" },
+                { "text": "Cuenta Empresarial", "url": "#" },
+                { "text": "Cuenta para Estudiantes", "url": "#" }
+            ]
+        },
+        {
+            "text": "Préstamos",
+            "url": "#",
+            "subMenu": [
+                { "text": "Préstamo Personal", "url": "#" },
+                { "text": "Hipotecario", "url": "#" },
+                { "text": "Automotriz", "url": "#" },
+                { "text": "Préstamo para Educación", "url": "#" }
+            ]
+        },
+        {
+            "text": "Tarjetas",
+            "url": "#",
+            "subMenu": [
+                { "text": "Tarjeta de Crédito", "url": "#" },
+                { "text": "Tarjeta de Débito", "url": "#" },
+                { "text": "Tarjeta Prepagada", "url": "#" },
+                { "text": "Tarjeta Empresarial", "url": "#" }
+            ]
+        },
+        {
+            "text": "Inversiones",
+            "url": "#",
+            "subMenu": [
+                { "text": "Fondos Mutuos", "url": "#" },
+                { "text": "Acciones", "url": "#" },
+                { "text": "Bonos", "url": "#" },
+                { "text": "Plan de Retiro", "url": "#" }
+            ]
+        },
+        {
+            "text": "Seguros",
+            "url": "#",
+            "subMenu": [
+                { "text": "Seguro de Vida", "url": "#" },
+                { "text": "Seguro de Salud", "url": "#" },
+                { "text": "Seguro de Autos", "url": "#" },
+                { "text": "Seguro de Propiedad", "url": "#" }
+            ]
+        },
+        {
+            "text": "Atención al Cliente",
+            "url": "#",
+            "subMenu": [
+                { "text": "Centro de Ayuda", "url": "#" },
+                { "text": "Soporte Técnico", "url": "#" },
+                { "text": "Sucursales", "url": "#" },
+                { "text": "Contacto", "url": "#" }
+            ]
+        }
+    ]
+}
