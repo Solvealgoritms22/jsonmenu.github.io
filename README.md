@@ -1,3 +1,5 @@
+# Abrir directamente desde este repositorio:
+
 # Instala un servidor HTTP basico para ejecutar este proyecto directamente en tu maquina (Primero asegurate de instalar npm) y es cribe el siguiente comando en tu terminal:
 npm install -g http-server
 
